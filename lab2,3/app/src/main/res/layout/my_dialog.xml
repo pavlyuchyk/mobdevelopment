@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lab1.MainActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="291dp"
+        android:layout_height="128dp"
+        android:background="#f5f6fa"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="269dp"
+            android:layout_height="wrap_content"
+            android:text="Chosen options"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/brand_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/heading"
+            android:layout_marginTop="4dp"
+            android:background="@null"
+            android:text="Brand:"
+            android:textColor="#000" />
+
+
+        <TextView
+            android:id="@+id/brand"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/heading"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="4dp"
+            android:background="@null"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/model_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/heading"
+            android:layout_marginTop="26dp"
+            android:background="@null"
+            android:text="Model:"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/model"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/heading"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="26dp"
+            android:background="@null"
+            android:textColor="#000" />
+
+
+        <Button
+            android:id="@+id/action_ok"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="Ок"
+            android:background="#ebeef1"
+            android:textColor="#000"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</RelativeLayout>
